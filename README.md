@@ -11,6 +11,28 @@ A high-performance trade simulator that leverages real-time market data to estim
 - Maker/Taker proportion prediction
 - Performance metrics and latency benchmarking
 
+## Application Output
+
+![GoQuant Trade Simulator Interface](docs/images/output.png)
+
+The application provides a user-friendly interface with:
+
+### Input Panel (Left)
+- Exchange selection (OKX)
+- Asset selection (BTC-USDT-SWAP)
+- Order type (Market)
+- Quantity input
+- Volatility setting
+- Fee tier selection
+
+### Output Panel (Right)
+- Expected Slippage
+- Expected Fees
+- Market Impact
+- Net Cost
+- Maker/Taker Proportion
+- Internal Latency
+
 ## Setup
 
 1. Install Python 3.8 or higher
@@ -34,6 +56,7 @@ A high-performance trade simulator that leverages real-time market data to estim
   - `utils/`: Utility functions and helpers
 - `tests/`: Unit tests
 - `docs/`: Documentation
+  - `images/`: Application screenshots and diagrams
 
 ## Models
 
@@ -66,4 +89,6 @@ The system implements several optimization techniques:
 - Multi-threaded UI updates
 - Memory-efficient data processing
 - Optimized regression model calculations
+
+
 
