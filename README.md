@@ -11,9 +11,7 @@ A high-performance trade simulator that leverages real-time market data to estim
 - Maker/Taker proportion prediction
 - Performance metrics and latency benchmarking
 
-## Application Output
 
-![GoQuant Trade Simulator Interface](docs/images/output.png)
 
 The application provides a user-friendly interface with:
 
